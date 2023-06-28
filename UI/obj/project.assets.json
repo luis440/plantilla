@@ -9970,11 +9970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\UI\\UI.csproj",
+      "projectUniqueName": "E:\\github\\plantilla\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\UI\\UI.csproj",
+      "projectPath": "E:\\github\\plantilla\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\UI\\obj\\",
+      "outputPath": "E:\\github\\plantilla\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9997,11 +9997,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\0. PROYECTO ECUADOR\\MERKAVA\\BE\\BE.csproj": {
-              "projectPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\BE\\BE.csproj"
+            "E:\\github\\plantilla\\BE\\BE.csproj": {
+              "projectPath": "E:\\github\\plantilla\\BE\\BE.csproj"
             },
-            "D:\\0. PROYECTO ECUADOR\\MERKAVA\\DA\\DA.csproj": {
-              "projectPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\DA\\DA.csproj"
+            "E:\\github\\plantilla\\DA\\DA.csproj": {
+              "projectPath": "E:\\github\\plantilla\\DA\\DA.csproj"
             }
           }
         }

@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
 build_property.RootNamespace = UI
-build_property.ProjectDir = D:\0. PROYECTO ECUADOR\MERKAVA\UI\
+build_property.ProjectDir = E:\github\plantilla\UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\0. PROYECTO ECUADOR\MERKAVA\UI
+build_property.MSBuildProjectDirectory = E:\github\plantilla\UI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Mantenimiento/Empresa.cshtml]
+[E:/github/plantilla/UI/Views/Mantenimiento/Empresa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xFbXByZXNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Mantenimiento/Oficina.cshtml]
+[E:/github/plantilla/UI/Views/Mantenimiento/Oficina.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xPZmljaW5hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Mantenimiento/Pais_Moneda.cshtml]
+[E:/github/plantilla/UI/Views/Mantenimiento/Pais_Moneda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xQYWlzX01vbmVkYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Seguridad/Cambio_Clave.cshtml]
+[E:/github/plantilla/UI/Views/Seguridad/Cambio_Clave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJpZGFkXENhbWJpb19DbGF2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Seguridad/Login.cshtml]
+[E:/github/plantilla/UI/Views/Seguridad/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJpZGFkXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Seguridad/Permisos.cshtml]
+[E:/github/plantilla/UI/Views/Seguridad/Permisos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJpZGFkXFBlcm1pc29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Seguridad/Principal.cshtml]
+[E:/github/plantilla/UI/Views/Seguridad/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJpZGFkXFByaW5jaXBhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Seguridad/Usuario.cshtml]
+[E:/github/plantilla/UI/Views/Seguridad/Usuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJpZGFkXFVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Shared/Error.cshtml]
+[E:/github/plantilla/UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Shared/MasterPage.cshtml]
+[E:/github/plantilla/UI/Views/Shared/MasterPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1hc3RlclBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/github/plantilla/UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/0. PROYECTO ECUADOR/MERKAVA/UI/Views/Shared/_Layout.cshtml]
+[E:/github/plantilla/UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k1t0mrplc2

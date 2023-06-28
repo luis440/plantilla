@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8D+2eWEtHzGnOe63jgt0uyk85ss7dBwaQP4oZK/9QwyeRbnP+hqb/vJsDflfDoHsqa3oemoghny6aqQ7Tup0ww==",
+  "dgSpecHash": "xAKsXdrx/rGMGbUrTlmOGo9L8SDzLTfO/NY+tE9Q14ZMwA7c4YPc4/BqhBa/wPPI0wBNSHH61I8N7pRHpTzx2A==",
   "success": true,
-  "projectFilePath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\DA\\DA.csproj",
+  "projectFilePath": "E:\\github\\plantilla\\DA\\DA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",

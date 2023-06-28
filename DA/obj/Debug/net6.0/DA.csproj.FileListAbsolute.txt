@@ -28,3 +28,18 @@ D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.dll
 D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\refint\DA.dll
 D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.pdb
 D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\ref\DA.dll
+E:\github\plantilla\DA\bin\Debug\net6.0\DA.deps.json
+E:\github\plantilla\DA\bin\Debug\net6.0\DA.dll
+E:\github\plantilla\DA\bin\Debug\net6.0\DA.pdb
+E:\github\plantilla\DA\bin\Debug\net6.0\BE.dll
+E:\github\plantilla\DA\bin\Debug\net6.0\BE.pdb
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.csproj.AssemblyReference.cache
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.AssemblyInfoInputs.cache
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.AssemblyInfo.cs
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.csproj.CoreCompileInputs.cache
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.csproj.CopyComplete
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.dll
+E:\github\plantilla\DA\obj\Debug\net6.0\refint\DA.dll
+E:\github\plantilla\DA\obj\Debug\net6.0\DA.pdb
+E:\github\plantilla\DA\obj\Debug\net6.0\ref\DA.dll

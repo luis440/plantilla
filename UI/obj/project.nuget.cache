@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Glv5c0hGQJiB+r4zmQQI9i3SllnXG2Gq4rEb91jw3f+gp3Lu7YMI14tmDUQFq0S/yrIECyyREu+OvjeSrGiKdg==",
+  "dgSpecHash": "cNeLD1u0f8sVBv2LhT+Cb0EJ/0Q8TDZqhBOfppZt4hf4vkSOywM01z67B8MXIe+anJc/EIFE73sDjB7NQCsu7A==",
   "success": true,
-  "projectFilePath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\UI\\UI.csproj",
+  "projectFilePath": "E:\\github\\plantilla\\UI\\UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

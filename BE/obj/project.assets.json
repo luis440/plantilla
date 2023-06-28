@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\BE\\BE.csproj",
+      "projectUniqueName": "E:\\github\\plantilla\\BE\\BE.csproj",
       "projectName": "BE",
-      "projectPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\BE\\BE.csproj",
+      "projectPath": "E:\\github\\plantilla\\BE\\BE.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\0. PROYECTO ECUADOR\\MERKAVA\\BE\\obj\\",
+      "outputPath": "E:\\github\\plantilla\\BE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
