@@ -1,0 +1,30 @@
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Debug\net6.0\DA.deps.json
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Debug\net6.0\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Debug\net6.0\DA.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Debug\net6.0\BE.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Debug\net6.0\BE.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.AssemblyReference.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.AssemblyInfoInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.AssemblyInfo.cs
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.CoreCompileInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.CopyComplete
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\refint\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\DA.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Debug\net6.0\ref\DA.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\bin\Debug\net6.0\DA.deps.json
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\bin\Debug\net6.0\DA.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\bin\Debug\net6.0\DA.pdb
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\bin\Debug\net6.0\BE.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\bin\Debug\net6.0\BE.pdb
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.AssemblyReference.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.GeneratedMSBuildEditorConfig.editorconfig
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.AssemblyInfoInputs.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.AssemblyInfo.cs
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.CoreCompileInputs.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.csproj.CopyComplete
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\refint\DA.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\DA.pdb
+D:\0. PROYECTO ECUADOR\MERKAVA\DA\obj\Debug\net6.0\ref\DA.dll

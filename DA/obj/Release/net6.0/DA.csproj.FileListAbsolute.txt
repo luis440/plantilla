@@ -1,0 +1,15 @@
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Release\net6.0\DA.deps.json
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Release\net6.0\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Release\net6.0\DA.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Release\net6.0\BE.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\bin\Release\net6.0\BE.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.csproj.AssemblyReference.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.AssemblyInfoInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.AssemblyInfo.cs
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.csproj.CoreCompileInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.csproj.CopyComplete
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\refint\DA.dll
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\DA.pdb
+C:\Users\WIn\source\repos\MERKAVA\DA\obj\Release\net6.0\ref\DA.dll

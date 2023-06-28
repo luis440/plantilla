@@ -1,0 +1,24 @@
+C:\Users\WIn\source\repos\MERKAVA\BE\bin\Debug\net6.0\BE.deps.json
+C:\Users\WIn\source\repos\MERKAVA\BE\bin\Debug\net6.0\BE.dll
+C:\Users\WIn\source\repos\MERKAVA\BE\bin\Debug\net6.0\BE.pdb
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.dll
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\refint\BE.dll
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\BE.pdb
+C:\Users\WIn\source\repos\MERKAVA\BE\obj\Debug\net6.0\ref\BE.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\bin\Debug\net6.0\BE.deps.json
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\bin\Debug\net6.0\BE.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\bin\Debug\net6.0\BE.pdb
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\refint\BE.dll
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\BE.pdb
+D:\0. PROYECTO ECUADOR\MERKAVA\BE\obj\Debug\net6.0\ref\BE.dll

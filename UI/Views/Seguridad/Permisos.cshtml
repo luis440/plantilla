@@ -1,0 +1,336 @@
+﻿
+@{
+    ViewData["Title"] = "Permisos";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Gestionar Permisos</h2>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="../Login/Principal">Principal</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a>Seguridad</a>
+            </li>
+            <li class="breadcrumb-item active">
+                <strong>Gestionar Permisos</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5>Gestionar Permisos <small></small></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    @*<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                    <li>
+                    <a href="#" class="dropdown-item">Config option 1</a>
+                    </li>
+                    <li>
+                    <a href="#" class="dropdown-item">Config option 2</a>
+                    </li>
+                    </ul>
+                    <a class="close-link">
+                    <i class="fa fa-times"></i>
+                    </a>*@
+                </div>
+            </div>
+            <div class="ibox-content">
+
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                       
+
+
+                        <div class="row" style="margin:2px">
+                            <div class="col-lg-12">
+                            <div class="tabs-container">
+                                <ul class="nav nav-tabs">
+                                        <li id="id_panel_principal" ><a class="nav-link active" href="#panel_principal" data-toggle="tab"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Usuario </a></li>
+                                        <li id="id_panel_mantenimiento" style="display:none"><a class="nav-link" href="#panel_mantenimiento" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i> Mantenimiento </a></li>
+                                        <li id="id_panel_mastercard" style="display:none"><a class="nav-link" href="#panel_mastercard" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true"></i>MasterCard Crédito </a></li>
+                                        <li id="id_panel_seguridad" style="display:none"><a id="a_panel_QR" class="nav-link" href="#panel_seguridad" data-toggle="tab"><i class="fa fa-shield" aria-hidden="true"></i> Seguridad</a></li>
+
+                                </ul>
+                                <br />
+                                <div class="tab-content">
+                                        <div class="active tab-pane" id="panel_principal">
+                                            <section class="content">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">Listado de Opciones</div>
+
+                                                            <div class="panel-body">
+                                                                <div  class="row" style="margin:2px">
+
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                                        Apellidos :
+                                                                        <input type="text" class="form-control" id="txtapellidos_buscar" />
+                                                                    </div>
+
+
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                                        Nombres :
+                                                                        <input type="text" class="form-control" id="txtnombres_buscar" />
+                                                                    </div>
+                                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                                        Usuario :
+                                                                        <input type="text" class="form-control" id="txtusuario_buscar" />
+                                                                    </div>
+                                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                                        Estado :
+                                                                        <select class="form-control" id="ddlestado_buscar">
+
+                                                                            <option value="A">ACTIVO</option>
+                                                                            <option value="I">INACTIVO</option>
+
+                                                                        </select>
+                                                                    </div>
+
+
+                                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                                        <br />
+                                                                        <button id="btnbuscar" type="button" class="btn btn-warning" style="background-color:#1ab394;color:white;border-color:#1ab394">Buscar</button>
+                                                                    </div>
+
+                                                                </div>
+                                                                <hr />
+
+                                                                <div id="div_tabla_usuarios" class="row" style="margin:2px">
+
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="table-responsive">
+
+
+
+                                                                            <table id="Tabla_Usuarios" class="table table-hover  table-striped compact nowrap" style="display:none">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>ID</th>
+                                                                                        <th>APELLIDOS</th>
+                                                                                        <th>NOMBRES</th>
+                                                                                        <th>USUARIO</th>
+                                                                                        <th>CORREO</th>
+                                                                                        <th>ESTADO</th>
+                                                                                        <th>SELECCIONAR</th>
+                                                                                       
+
+                                                                                    </tr>
+                                                                                </thead>
+
+                                                                            </table>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div id="div_usuario_seleccionado" class="row" style="margin:2px;display:none">
+
+                                                                  
+                                                                        
+                                                                        <div class="col-lg-4">
+
+                                                                        </div>
+                                                                        <div class="col-lg-4">
+                                                                            <div class="contact-box">
+                                                                                <a class="row" href="profile.html">
+                                                                                    <div class="col-4">
+                                                                                        <div class="text-center">
+                                                                                            <img alt="image" class="rounded-circle m-t-xs img-fluid" src="/img/img_aa.png">
+                                                                                         
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-8">
+                                                                                        <h3><strong id="usuario_nombre"></strong></h3>
+                                                                                    <p id="usuario_correo"> </p>
+                                                                                     <div id="usuario_permiso" class="m-t-xs font-bold"></div>
+                                                                                    <p id="usuario_id" style="display:none"> </p>
+                                                                                       @* <address>
+                                                                                            <strong>Twitter, Inc.</strong><br>
+                                                                                            795 Folsom Ave, Suite 600<br>
+                                                                                            San Francisco, CA 94107<br>
+                                                                                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                                                                                        </address>*@
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-4">
+
+                                                                        </div>
+
+                                                                 
+                                                                </div>
+                                                             
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                        </div>
+                                        <div class="tab-pane" id="panel_mantenimiento">
+                                        <section class="content">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-primary">
+                                                        <div class="panel-heading">Listado de Opciones</div>
+
+                                                        <div class="panel-body">
+                                                                <div class="row" style="margin:2px">
+
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="ibox-content">
+                                                                            <h2>Mantenimiento</h2>
+                                                                            <small>Seleccione los permisos para el modulo:</small>
+                                                                            <ul class="todo-list m-t" id="Lista_Permisos_Mantenimiento">
+                                                                               
+                                                                            </ul>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
+                                        </section>
+                                    </div>
+                                        <div class="tab-pane" id="panel_mastercard">
+                                        <section class="content">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-primary">
+                                                            <div class="panel-heading">Listado de Opciones</div>
+                                                        <div class="panel-body">
+                                                                <div class="row" style="margin:2px">
+
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="ibox-content">
+                                                                            <h2>MasterCard Crédito</h2>
+                                                                            <small>Seleccione los permisos para el modulo:</small>
+                                                                            <ul class="todo-list m-t" id="Lista_Permisos_Mastercard">
+                                                                            </ul>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                        <div class="tab-pane" id="panel_seguridad">
+                                        <section class="content">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-primary">
+                                                            <div class="panel-heading">Listado de Opciones</div>
+                                                        <div class="panel-body">
+                                                                <div class="row" style="margin:2px">
+
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="ibox-content">
+                                                                            <h2>Seguridad</h2>
+                                                                            <small>Seleccione los permisos para el modulo:</small>
+                                                                            <ul class="todo-list m-t" id="Lista_Permisos_Seguridad">
+                                                                            </ul>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                      <div id="div_footer_permisos" class="modal-footer" style="display:none">
+
+
+                                                                    <button id="btnGuardar_permisos" type="button" class="btn btn-default" style="background-color:#1ab394;color:white;border-color:#1ab394">Guardar</button>
+
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                                </div> 
+                                </div>
+                                  
+                            </div>
+                        </div>
+                          
+
+                        </div>
+                        <hr />
+
+                      
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+    .editar {
+        cursor: pointer
+    }
+      .seleccionar {
+        cursor: pointer
+    }
+    .eliminar {
+        cursor: pointer
+    }
+
+    .error_campo_vacio {
+        box-shadow: 0 0 5px #CD2F0D;
+        border-color: red;
+    }
+
+    /*.panel-primary>.panel-heading {
+                color: #fff;
+                background-color: rgba(34, 45, 50, 0.61);
+                border-color: #222d32;
+            }*/
+</style>
+
+<script src="~/js_modulos/seguridad/js_permisos.js"></script>

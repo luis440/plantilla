@@ -1,0 +1,296 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>.::. MERKAVA .::.</title>
+  
+    <link href="~/Css/plugins/datapicker/datepicker3.css" rel="stylesheet" >
+    <link href="~/Css/bootstrap.min.css" rel="stylesheet" >
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" >
+
+    <!-- Toastr style -->
+    <link href="~/Css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="~/Css/animate.css" rel="stylesheet">
+    <link href="~/Css/style.css" rel="stylesheet">
+
+    <!-- Mainly scripts -->
+
+
+    <script src="~/js/Bootstrap/jquery-3.1.1.min.js"></script>
+
+    <script src="~/js/Bootstrap/popper.min.js"></script>
+    <script src="~/js/Bootstrap/bootstrap.js"></script>
+    <script src="~/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Gritter -->
+    <link href="~/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <!-- Flot -->
+    <script src="~/js/plugins/flot/jquery.flot.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="~/js/jquery/modernizr-2.8.3.js"></script>
+    <!-- Peity -->
+    <script src="~/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="~/js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="~/js/Bootstrap/inspinia.js"></script>
+    <script src="~/js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+   
+    <script src="~/Js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- GITTER -->
+    <script src="~/js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="~/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="~/js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="~/js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="~/js/plugins/toastr/toastr.min.js"></script>
+
+    <script src="~/js/Bootstrap/jquery.session.js"></script>
+
+    <script src="~/js_modulos/masterpage/js_masterpage.js"></script>
+    <link href="~/Css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+
+  
+    <script src="~/js/plugins/dataTables/datatables.min.js"></script>
+    <script src="~/js/plugins/dataTables/dataTables.bootstrap4.min.js"></script>
+
+
+    <link href="~/js/alertifyjs/css/alertify.css" rel="stylesheet" />
+    <script src="~/js/alertifyjs/alertify.js"></script>
+    <link href="~/js/sweetalert2-7.26.12/package/dist/sweetalert2.css" rel="stylesheet" />
+    <script src="~/js/sweetalert2-7.26.12/package/dist/sweetalert2.js"></script>
+
+    <link href="~/js/jquery-ui/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />
+    <script src="~/js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/js/Bootstrap/calendario.js"></script>
+
+    <link href="~/Librerias/bootstrap-fileinput/css/fileinput.css" rel="stylesheet" />
+    <link href="~/Librerias/bootstrap-fileinput/themes/explorer-fas/theme.css" rel="stylesheet" />
+    <script src="~/Librerias/bootstrap-fileinput/js/plugins/piexif.js"></script>
+    <script src="~/Librerias/bootstrap-fileinput/js/plugins/sortable.js"></script>
+    <script src="~/Librerias/bootstrap-fileinput/js/fileinput.js"></script>
+    <script src="~/Librerias/bootstrap-fileinput/js/locales/es.js"></script>
+    <script src="~/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+    <style>
+        .load {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba( 0, 0, 0, 0.3 ) url(../img/cargando12.gif) 50% 50% no-repeat;
+            
+        }
+
+        /* Cuando el body tiene la clase 'loading' ocultamos la barra de navegacion */
+        body.loading {
+            overflow: hidden;
+        }
+
+            /* Siempre que el body tenga la clase 'loading' mostramos el modal del loading */
+            body.loading .load {
+                display: block;
+            }
+    </style>
+</head>
+<body>
+    <div class="load">
+    </div>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element" >
+                            <div style="display:flex;justify-content:center">
+                                <img alt="image" class="img-thumbnail" src="~/img/img_aa.png" style="text-align:center;width=150px;height:150px" />
+                               @* <img alt="image" class="rounded-circle" src="~/img/log_small3.png" style="text-align:center" />*@
+                            </div>
+                           
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <div style="display:flex;justify-content:center">
+                                    <span class="block m-t-xs font-bold" id="txtusurio_menu"></span>
+                                </div>
+                                <div style="display:flex;justify-content:center">
+                                    <span class="text-muted text-xs block" id="txtperfil_menu"> </span>
+                                </div>
+                            </a>
+                            <div style="display:flex;justify-content:center">
+                            <p class="small font-bold">
+                                <span style="color:white"><i class="fa fa-circle text-navy"></i> En Linea</span>
+                                </p>
+                            </div>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a class="dropdown-item" href="../Seguridad/Cambio_Clave">Perfil</a></li>
+
+                            
+                                <li class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Seguridad/Login" >Salir</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div class="logo-element">
+                            MER
+                        </div>
+                    </li>
+               
+                    <li class="active"><a href="@Url.Action("Login", "Seguridad")"><i class="fa fa-home"></i> <span>Principal</span></a></li>
+                    <li id="menu_padre_mantenimiento">
+                        <a href="layouts.html"><i class="fa fa-cogs"></i> <span class="nav-label">Mantenimiento</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+
+                         
+                            <li id="menu_mantenimiento_empresa" style="display:none"><a href="@Url.Action("Empresa", "Mantenimiento")"><i class="fa fa-angle-double-right"></i> Empresas</a></li>
+                            <li id="menu_mantenimiento_paises" style="display:none"><a href="@Url.Action("Pais_Moneda", "Mantenimiento")"><i class="fa fa-angle-double-right"></i> Catálogo de Países</a></li>
+                            <li id="menu_mantenimiento_oficinas" style="display:none"><a href="@Url.Action("Oficina", "Mantenimiento")"><i class="fa fa-angle-double-right"></i> Catálogo de Oficinas</a></li>
+                            <li id="menu_mantenimiento_ciudades" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Catálogo de Ciudades</a></li>
+                            <li id="menu_mantenimiento_estado_tarjeta" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Estados de Tarjeta</a></li>
+                            <li id="menu_mantenimiento_score" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Score</a></li>
+                            <li id="menu_mantenimiento_Bines" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Bines</a></li>
+
+                        </ul>
+                    </li>
+
+                      <li id="menu_padre_mastercard">
+                        <a href="layouts.html"><i class="fa fa-credit-card"></i> <span class="nav-label">MasterCard Crédito</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav">
+                            <li id="menu_mastercard_Dashboard" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Dashboard</a></li>
+                            <li id="menu_mastercard_creditos_cobranzas" style="border-left:0;display:none;">
+                                <a href="layouts.html"><i class="fa fa-angle-double-right"></i> <span class="nav-label">Créditos & Cobranzas</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav">
+                                    <li id="menu_mastercard_solicitudes" style="border-left:0;display:none;">
+                                        <a href="layouts.html"><i class="fa fa-angle-double-right"></i> <span class="nav-label">Solicitudes</span><span class="fa arrow"></span></a>
+                                        <ul class="nav nav-second-level">
+                                            <li id="menu_mastercard_gestion" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i>Gestion</a></li>
+                                            <li id="menu_mastercard_entrega" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i>Entrega</a></li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                          </li>
+                            
+                        </ul>
+
+                    </li>
+
+
+                    <li id="menu_padre_seguridad">
+
+                        <a href="layouts.html"><i class="fa fa-shield"></i> <span class="nav-label">Seguridad</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li id="menu_seguridad_usuarios" style="display:none"><a href="@Url.Action("Usuario", "Seguridad")"><i class="fa fa-angle-double-right"></i> Usuarios</a></li>
+                            <li id="menu_seguridad_cambio_clave" style="display:none"><a href="@Url.Action("Cambio_Clave", "Seguridad")"><i class="fa fa-angle-double-right"></i> Cambio de Clave</a></li>
+                            <li id="menu_seguridad_permisos" style="display:none"><a href="@Url.Action("Permisos", "Seguridad")"><i class="fa fa-angle-double-right"></i>Permisos </a></li>
+
+
+
+                        </ul>
+                    </li>
+
+                    <li id="menu_padre_ayuda">
+
+                        <a href="layouts.html"><i class="fa fa-question-circle"></i> <span class="nav-label">Ayuda</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="~/Ayuda/Acerca_De.aspx"><i class="fa fa-angle-double-right"></i> Acerca de</a></li>
+
+
+                            @*<li><a href="/Mant_Usuarios.aspx"><i class="fa fa-user-circle-o"></i> Perfiles</a></li>*@
+
+                        </ul>
+                    </li>
+
+                    <li id="btn_salir"><a href="#"><i class="fa fa-sign-out"></i><span class="nav-label"> Salir</span> </a></li>
+
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                        <form role="search" class="navbar-form-custom" action="search_results.html">
+                            <div class="form-group">
+                              
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li style="padding: 20px">
+                            <i class="fa fa-user-circle-o"></i> <span class="m-r-sm text-muted welcome-message" id="nombre_completo_menu" style="font-weight:bold"></span>
+                        </li>
+
+                        
+
+
+                        <li>
+                            <a href="/Seguridad/Login" style="font-weight:bold">
+                                
+                                <i class="fa fa-sign-out"></i> Salir
+                            </a>
+                        </li>
+
+                       
+                    </ul>
+
+                </nav>
+            </div>
+
+
+
+
+
+
+
+            <div>
+                <section>
+                    @RenderBody()
+                </section>
+            </div>
+
+
+
+           
+            <div class="footer">
+               
+                <div>
+                    <strong>.::. MERKAVA .::.  </strong> 
+                </div>
+            </div>
+        </div>
+        
+       
+    </div>
+
+
+
+
+
+</body>
+
+</html>
